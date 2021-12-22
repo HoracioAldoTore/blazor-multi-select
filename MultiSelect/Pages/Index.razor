@@ -1,0 +1,97 @@
+﻿@page "/"
+@using MultiSelect.Components
+@using MultiSelect.ComponentMultiSelectTore
+
+<div style="color:cornflowerblue; font-size:larger;">
+    <b>Blazor multiselect checkbox</b>
+</div>
+
+<TMultiSelectTore @ref="MSRef"
+                  Items="@Items"
+                  LabelSearch="Search"
+                  LabelViewOnlyChecked="Ver solo seleccionados"
+                  LabelCheckAll="Marcar todos"
+                  LabelUnCheckAll="Desmarcar todos"
+                  VisibleViewOnlyChecked="true"
+                  VisibleCheckAll="true"
+                  VisibleSearch="true"
+                  Width="200px"
+                  Height="150px"
+                  OrderBy="@(TOrderByTypes.Label.ToString())"
+                  OnCheckChange="@MultiSelector_OnCheckChange">
+</TMultiSelectTore>
+
+<button @onclick="ButtonOnclick">
+    Show items
+</button>
+@_ItemsChecked
+
+<ListIAlltems Items="@Items" ItemOnCheckChange="@ItemOnCheckChange">
+</ListIAlltems>
+
+@code {  
+    private string _ItemsChecked;
+
+    private void ButtonOnclick()
+    {
+        _ItemsChecked = "";
+        foreach (TItem item in MSRef.Items)
+        {
+            if (item.Checked)
+                _ItemsChecked += $"{item.Label}; ";
+        }
+    }
+
+    private TMultiSelectTore MSRef;
+
+    private TItem ItemOnCheckChange = new TItem();
+
+    private List<TItem> Items { set; get; }
+
+    private List<TItem> GetItems()
+    {
+        var items = new List<TItem>()
+        {
+            new TItem(){Value="volvo", Label="Volvo", Checked=true },
+            new TItem(){Value="saab", Label="Saab"},
+            new TItem(){Value="opel", Label="Opel"},
+            new TItem(){Value="audi", Label="Audi"},
+            new TItem(){Value="ford_a", Label="Ford A"},
+        };
+
+        //for (int i = 0; i < 1000; i++)
+        //{
+        //    items.Add(new Item() { Value = i.ToString(), Label = i.ToString() });
+        //}
+
+        return items;
+    }
+
+    protected override void OnInitialized()
+    {
+        this.Items = GetItems();
+        base.OnInitialized();
+    }
+
+
+    /// <summary>
+    /// Variante asincrónica
+    /// </summary>
+    /// <param name="item"></param>
+    //protected async Task MultiSelector_OnCheckChange(Item item)
+    //{
+    //    this.ItemOnCheck = item;
+
+    //    await Task.Delay(1 * 1000);
+    //}
+
+    /// <summary>
+    /// Método de atención al evento “OnCheckChange”
+    /// </summary>
+    /// <param name="item"></param>
+    protected void MultiSelector_OnCheckChange(TItem item)
+    {
+        this.ItemOnCheckChange = item;
+    }
+}
+

@@ -1,0 +1,56 @@
+﻿@page "/counter"
+@using MultiSelect.Components
+@using MultiSelect.ComponentMultiSelectTore
+
+@_SelectedItems
+<br />
+
+<button class="btn btn-primary" @onclick="VerItems">VerItems</button>
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private string _SelectedItems { set; get; }
+
+    private List<TItem> Items { set; get; }
+
+    private List<TItem> GetItems()
+    {
+        var items = new List<TItem>()
+    {
+            new TItem(){Value="volvo", Label="Volvo", Checked=true },
+            new TItem(){Value="saab", Label="Saab"},
+            new TItem(){Value="opel", Label="Opel"},
+            new TItem(){Value="audi", Label="Audi"}
+        };
+
+        return items;
+    }
+
+    private void VerItems()
+    {
+        _SelectedItems = "";
+        foreach (TItem item in Items)
+        {
+            if (item.Checked)
+                _SelectedItems += item.Label;
+        }
+    }
+
+    protected override void OnInitialized()
+    {
+        this.Items = GetItems();
+        base.OnInitialized();
+    }
+
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

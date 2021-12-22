@@ -1,0 +1,225 @@
+﻿
+<div style="border:1px solid red; width:min-content; background-color:lightgoldenrodyellow; padding:5px">
+    @if (VisibleCheckAll)
+    {
+        <div>
+            <a href="#" @onclick="@CheckAllOnclick">@LabelCheckAll</a>
+            <span>&nbsp; &nbsp; &nbsp;</span>
+            <a href="#" @onclick="@UnCheckAllOnclick">@LabelUnCheckAll</a>
+        </div>
+    }
+
+    @if (VisibleViewOnlyChecked)
+    {
+        <div>
+            <label for="view_only_checked_id">@LabelViewOnlyChecked:</label>
+            <input type="checkbox" name="view_only_checked_id" id="view_only_checked_id" value="@ViewOnlyChecked"
+                   @onchange="eventArgs => { CheckboxViewOnlyCheckedOnchange(eventArgs.Value); }">
+        </div>
+    }
+
+    @if (VisibleSearch)
+    {
+        <div>
+            <label for="textSearch">@LabelSearch:</label>
+            <br />
+            <input type="text" id="textSearch" name="textSearch" style="width: @Width"
+                   @bind-value="_Search" @bind-value:event="oninput" @onkeyup="TextOnkeyup">
+        </div>
+    }
+
+    <div style=" height: @Height; width: @Width; overflow-y: scroll;">
+        @foreach (TItem item in _FilteredItems)
+        {
+            string checkboxId = Guid.NewGuid().ToString();
+            if (item.Checked)
+            {
+                <input type="checkbox" name="@checkboxId" id="@checkboxId" checked
+                       @onchange="async eventArgs => { await CheckboxClicked(item.Value, eventArgs.Value); }">
+            }
+            else
+            {
+                <input type="checkbox" name="@checkboxId" id="@checkboxId"
+                       @onchange="async eventArgs => { await CheckboxClicked(item.Value, eventArgs.Value); }">
+            }
+            <label for="@checkboxId">@item.Label</label>
+            <br>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public List<TItem> Items { set; get; }
+
+    [Parameter]
+    public string LabelSearch { set; get; }
+
+    [Parameter]
+    public string LabelViewOnlyChecked { set; get; }
+
+    [Parameter]
+    public bool VisibleViewOnlyChecked { set; get; } = true;
+
+    [Parameter]
+    public bool VisibleCheckAll { set; get; } = true;
+
+    [Parameter]
+    public bool VisibleSearch { set; get; } = true;
+
+    [Parameter]
+    public string Width { set; get; }
+
+    [Parameter]
+    public string Height { set; get; }
+
+    [Parameter]
+    public string OrderBy { set; get; }
+
+    [Parameter]
+    public string LabelCheckAll { set; get; }
+
+    [Parameter]
+    public string LabelUnCheckAll { set; get; }
+
+    [Parameter]
+    public EventCallback<TItem> OnCheckChange { get; set; }
+
+    private bool ViewOnlyChecked { set; get; } = false;
+
+    private List<TItem> _FilteredItems { set; get; }
+
+    private string _Search = "";
+
+    protected override void OnInitialized()
+    {
+        SetDefaults();
+        ReloadFilteredItems();
+        base.OnInitialized();
+    }
+
+    /// <summary>
+    /// valores predeterminados
+    /// </summary>
+    private void SetDefaults()
+    {
+        this.LabelSearch = (this.LabelSearch) ?? "Search";
+        this.LabelViewOnlyChecked = (this.LabelViewOnlyChecked) ?? "View only checked";
+
+        this.LabelCheckAll = (this.LabelCheckAll) ?? "Check all";
+        this.LabelUnCheckAll = (this.LabelUnCheckAll) ?? "UnCheck all";
+
+
+        this.Width = (this.Width) ?? "300px";
+        this.Height = (this.Height) ?? "200px";
+    }
+
+    private void TextOnkeyup(KeyboardEventArgs args)
+    {
+        ReloadFilteredItems();
+
+        if (args.Code == "Enter" && !string.IsNullOrEmpty(_Search))
+        {
+            TItem item = _FilteredItems.FirstOrDefault();
+            if (item != null)
+            {
+                item.Checked = !item.Checked; //check or uncheck
+                OnCheckChange.InvokeAsync(item);
+            }
+        }
+        if (args.Code == "Escape")
+        {
+            _Search = ""; //Limpia la busqueda
+            ReloadFilteredItems();
+        }
+    }
+
+    private async Task CheckboxClicked(string value, object isChecked)
+    {
+        TItem item = this.Items.First(i => i.Value == value);
+
+        item.Checked = Convert.ToBoolean(isChecked);
+
+        await Task.Delay(1 * 100);
+
+        ReloadFilteredItems();
+
+        await OnCheckChange.InvokeAsync(item);
+    }
+
+    private void CheckboxViewOnlyCheckedOnchange(object isChecked)
+    {
+        this.ViewOnlyChecked = (bool)isChecked;
+        this.ReloadFilteredItems();
+    }
+
+    private async void CheckAllOnclick()
+    {
+        await this.SetAllChecked(true);
+    }
+
+    private async void UnCheckAllOnclick()
+    {
+        await this.SetAllChecked(false);
+    }
+
+    private async Task SetAllChecked(bool isChecked)
+    {
+        foreach (TItem fItem in _FilteredItems)
+        {
+            TItem item = this.Items.First(i => i.Value == fItem.Value);
+            item.Checked = isChecked;
+            await OnCheckChange.InvokeAsync(item);
+        }
+        this.ReloadFilteredItems();
+    }
+
+    private void ReloadFilteredItems()
+    {
+        _FilteredItems = this.Items.Where(i => i.Label.ToLower()
+                                   .Contains(_Search.ToLower()))
+                                   .ToList();
+
+        if (this.ViewOnlyChecked)
+        {
+            _FilteredItems = _FilteredItems.Where(i => i.Checked == true).ToList();
+        }
+
+        MakeOrderBy();
+    }
+
+    /// <summary>
+    /// Realiza el ordenamiento de los ítems.
+    /// </summary>
+    private void MakeOrderBy()
+    {
+        if (!string.IsNullOrEmpty(this.OrderBy))
+        {
+            TOrderByTypes orderBy = TOrderByTypes.Nothing;
+
+            try
+            {
+                orderBy = (TOrderByTypes)Enum.Parse(typeof(TOrderByTypes), this.OrderBy, true);
+            }
+            catch (ArgumentException)
+            {
+
+            }
+
+            switch (orderBy)
+            {
+                case TOrderByTypes.Label:
+                    _FilteredItems = _FilteredItems.OrderBy(i => i.Label).ToList();
+                    break;
+                case TOrderByTypes.Value:
+                    _FilteredItems = _FilteredItems.OrderBy(i => i.Value).ToList();
+                    break;
+                case TOrderByTypes.Checked:
+                    _FilteredItems = _FilteredItems.OrderByDescending(i => i.Checked).ThenBy(i => i.Label).ToList();
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+﻿@using MultiSelect.ComponentMultiSelectTore
+
+<br />
+<table border="1">
+    <tr style="font-weight: bold;">
+        <td>
+            Label
+        </td>
+        <td>
+            Value
+        </td>
+        <td>
+            Checked
+        </td>
+    </tr>
+    @foreach (TItem item in Items)
+    {
+        string color = (ItemOnCheckChange.Value == item.Value) ? "red" : "";
+        <tr style="color:@color">
+            <td>
+                @item.Label
+            </td>
+            <td>
+                @item.Value
+            </td>
+            <td>
+                @item.Checked
+            </td>
+        </tr>
+    }
+</table>
+
+@code
+{
+    [Parameter]
+    public List<TItem> Items { set; get; }
+
+    [Parameter]
+    public TItem ItemOnCheckChange { set; get; } = new TItem();
+
+}
