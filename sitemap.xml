@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/issues</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/pulls</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/actions</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/projects?type=beta</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/security</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/649cb8c1ae861810254e1c7482251461f7937bea</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/main/.gitignore</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/07ad75d313ca1bec05809e304be021a0edb33fb1</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/main/MultiSelect.sln</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/9008d396fc814948a43c3fc02670dea887d34c01</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/main/README.md</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/0f7837bf97fbd6f8174d0d7709acc8156d6943f2</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/main/google1ad8391b977d125a.html</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/b0deff0b5ae5e0ac917f1118a7e19fe66a251174</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/releases</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/compare</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/actions/runs/1649401416</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/actions/runs/1649382629</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/actions/runs/1649381235</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/actions/runs/1649362096</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/projects</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Home/_history</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/security/policy</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/security/advisories</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/06de11d3d4b5d133cdc146e4ca76e58ba9dea8dd</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/b0deff0b5ae5e0ac917f1118a7e19fe66a251174/.gitignore</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/find/main</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/b0deff0b5ae5e0ac917f1118a7e19fe66a251174/MultiSelect.sln</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/b0deff0b5ae5e0ac917f1118a7e19fe66a251174/README.md</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/main/README.md?plain=1</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/b0deff0b5ae5e0ac917f1118a7e19fe66a251174/google1ad8391b977d125a.html</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/bb2f4f493988be6ee2642bd29ef6ba4bf9e0f82b</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels?sort=name-asc</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels?sort=name-desc</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels?sort=count-desc</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels?sort=count-asc</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/bug</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/documentation</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/duplicate</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/enhancement</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/good%20first%20issue</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/help%20wanted</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/invalid</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/question</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/labels/wontfix</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/runs/4691300113?check_suite_focus=true</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/runs/4691305795?check_suite_focus=true</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/runs/4691254599?check_suite_focus=true</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/runs/4691259797?check_suite_focus=true</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/runs/4691250784?check_suite_focus=true</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/runs/4691254455?check_suite_focus=true</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/9f6c9262c677654fe1c75caee0abf3c0a57db26f</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/runs/4691199632?check_suite_focus=true</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/runs/4691204785?check_suite_focus=true</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/7c42d0a940d2ca5720938344592bf479a5886b78</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/_history</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Home/0c14400f4f1dc8802f411db38825daaaf5ac7c1f</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Home/aea33e8a89f8cc8fc6915132ed3f19c810c9bb8a</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/_history</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/security/advisories?state=published</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/4bd34445c8b40a70bce1ac5a0790f0d338285cc6</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/find/b0deff0b5ae5e0ac917f1118a7e19fe66a251174</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/blob/b0deff0b5ae5e0ac917f1118a7e19fe66a251174/README.md?plain=1</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/35988bb3db61ad2aab54411ebf35272daf015a75</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/bf4e86b42ede1d53dc9bdafa7ad9fb1d046717d1</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/e097e36bb960c17552d1eda347b1374707a1b04e</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/90566b73ee917f88107dbe64ce2f13fbc8146a75</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/0c3d2873994f7c41de74457cf31b035fc552712f</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/71ee10af9898c2ad40ff139fde7cb0c47cbad880</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/a8fa6a6f9df5c89862803e1636eb8a420bfd4f28</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/73270120f33e1a3dc9227894d78c62ec5d704605</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/13a23fa118ada4c2e1b7491e6bcc9cb582947061</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/eab3d42f4b60899e273105f4eb5f8d69133b457d</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/92231c107240b8663c9e9cbd3bf56dc41fa54f7b</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/ae8de6711b1429359aca007c5d03a1dda4ae97ce</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/8a3f69a98788e58e957a34196dd48175ff18b407</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/3f20a3f709d0d8c606673beecb726cda879bd690</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/687cf08ca81a112b704f12003ee561c7dd5e8eac</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/951b759b3d79627a93e525be1d6dc617424371de</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/c02ae9d708d4dd2e1dca32feed884838a4d85317</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/8ed3e6b723426984115a6c34848f79b9a65fc182</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/ead173cd03d12fb2e5de6bff22ad4f6b7ae87c69</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/58baa99ed81ae5fa12f7895ecddada86445debc8</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/51f818c6c02611e8444547b2688e19a14a315b03</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/533c4bee7fe2e9476a3ef2a89395dabaf9f2cdca</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/eb64a007b8f63ac32b02b5d87fc753fa643e0f32</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/13a27d049c8fd9a7834eae5022bcd338be4ff73e</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/a6bd7ddd50f6be51993533f9aecf431e31b0e3f9</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/82deaba73e80beeb07ef666ea075273185dbed58</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/7692a60daa6ddc35b3a4dee7464dbdce2c3a42b8</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/cf02bb60e293ccc9195c72489a7180630217865a</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/79e832d2d36e1624702ffe4da5d301d216ea3c4c</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/ba554b8ff12dbe83aa3829dd36086324dd5ce7d9</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/wiki/Documentacion/06f519aec0e10b879a33273f218aced1e73c5022</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/44a5627472fef4b4e9ce8b726df2ef071413a674</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/192d29fa3bd3d2644f58e6123d819c1e960e3566</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/3fe25fa85034d3d83f3522dc2ec0a269da4d7754</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/841490ec8c795c2e3ba3ecfe508c98c9a7e7db40</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/bca83a7a56980bc74396a77e4d3db624180989de</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/0bf5709f9fb02f6e7b69b93d341dc15c1c45a6d6</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/2118e0cc144001470652b2f64810ca0390971c22</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/749390e3a06e51b0e65d70649ca11b5daaae18d1</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/362013d99608c05a26f51f73dcdfdae4ccf9905a</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/bd61b3f79bace29db73fc88270472370f7df8ce9</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/a55d49e0b6bd5706b7617b3d6005ff7d7cd3cf7a</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/c4e127dedfb85234c072945092ca9f59687f8514</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/d5a7721d320f4f7e3db864052891bfca3d3a699b</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/HoracioAldoTore/blazor-multi-select/commit/8d999e6c3bae84c347644e10f6b250f695fc96ce</loc>
+  <lastmod>2022-01-03T14:55:04+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+
+
+</urlset>
